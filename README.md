@@ -12,9 +12,10 @@ $('.puzzle').puzzle({
 ```
 
 List of options:
-Option | default | Values | Effect
+
+Option | Default | Values | Effect
 --- | --- | --- | ---
-`difficulty` | 5 | int 1 - 10 | Sets the size of the puzzle. Twice the number of pieces as the value. Ex. 5 = 10 x 10 puzzle.
+`difficulty` | 5 | int 1 - 10 | Sets the size of the puzzle. Twice the number of pieces as the value. Ex. 5 = 10 x 10 puzzle
 `margin` | 10 | int (no bounds currently set) | The number of pixels that designamtes when two pieces are considered next to eachother
 `xPieces` | null | int | Overrides the horizontal difficulty
 `yPieces` | null | int | Overrides the vertical difficulty
