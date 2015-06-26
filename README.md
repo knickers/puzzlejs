@@ -1,13 +1,13 @@
 puzzlejs
 ========
 
-A simple jQuery library that will turn any image into a puzzle
+A simple jQuery library that will turn any image into a puzzle game.
 
 Create a new puzzle:
 ```
 $('.puzzle').puzzle({
 	difficulty: 2,
-	imageURL: '3d-printed-lunar-base.jpg'
+	imageURL: '/3d-printed-lunar-base.jpg'
 });
 ```
 
