@@ -3,6 +3,8 @@ puzzlejs
 
 A simple jQuery library that will turn any image into a puzzle game.
 
+Demo: [https://robot54.com/puzzlejs/](https://robot54.com/puzzlejs/)
+
 Create a new puzzle:
 ```
 $('.puzzle').puzzle({
