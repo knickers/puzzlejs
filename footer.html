@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>puzzle.js</title>
+<style>
+	* { box-sizing: border-box; }
+	html, body { height: 99.9%; margin: 0; padding: 0; overflow: hidden; }
+	
+	#puzzle { height: 100%; text-align: center; }
+	.puzzlejs_puzzle { border: 1px solid black; }
+</style>
+<!--
+<script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="puzzle.js"></script>
+<script type="text/javascript">
+	jQuery(function($) {
+		var puzzle = $('#puzzle').puzzle({
+			difficulty: 4,
+			imageURL: 'https://ftopx.com/images/201205/ftop.ru_32460.jpg'
+		});
+	});
+</script>
+</head>
+<body>
+	<div id="puzzle"></div>
+</body>
+</html>
