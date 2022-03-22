@@ -7,7 +7,7 @@
 	* { box-sizing: border-box; }
 	html, body { height: 99.9%; margin: 0; padding: 0; overflow: hidden; }
 	
-	.puzzle { height: 100%; text-align: center; }
+	#puzzle { height: 100%; text-align: center; }
 	.puzzlejs_puzzle { border: 1px solid black; }
 </style>
 <!--
@@ -17,7 +17,7 @@
 <script type="text/javascript" src="puzzle.js"></script>
 <script type="text/javascript">
 	jQuery(function($) {
-		var puzzle = $('.puzzle').puzzle({
+		var puzzle = $('#puzzle').puzzle({
 			difficulty: 2,
 			imageURL: '3d-printed-lunar-base.jpg'
 		});
@@ -25,6 +25,6 @@
 </script>
 </head>
 <body>
-	<div class="puzzle"></div>
+	<div id="puzzle"></div>
 </body>
 </html>
